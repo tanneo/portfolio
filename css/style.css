@@ -303,3 +303,23 @@
   line-height: 1.5;
   letter-spacing: 0.2rem;
 }
+
+@media screen and (min-width:768px) {
+  .services-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .services-single-service {
+    flex: 0 0 calc(50% - 0.5rem);
+  }
+}
+
+@media screen and (min-width:992px) {
+  .services-single-service {
+    flex: 0 0 calc(33.33% - 0.25rem);
+  }
+}
+
+/* end of services section */
