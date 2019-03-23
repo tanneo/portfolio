@@ -381,3 +381,22 @@
   opacity: 1;
   transform: scale(1) translate(-50%, -50%);
 }
+
+@media screen and (min-width:768px) {
+  .projects-center{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* parent container settings */
+  }
+  .projects-single-project{
+    flex: 0 0 calc(50% - 0.5rem);
+  }
+}
+
+@media screen and (min-width:992px) {
+  .projects-single-project{
+    flex: 0 0 calc(25% - 0.5rem);
+  }
+}
+/* end of of projects section */
