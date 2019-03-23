@@ -67,3 +67,35 @@
    cursor: pointer;
  }
  
+ @media screen and (min-width:768px){
+  .nav{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .nav-header{
+    border-bottom: none;
+  }
+  .nav-btn{
+    display: none;
+  }
+  .nav-links{
+    background: transparent;
+    height: auto;
+    /* as a flex child */
+   flex:1 0 auto;
+    /* as a flex parent */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-self: center;
+  }
+  .nav-single-link{
+    background: transparent;
+    flex:1 0 100px;
+  }
+  .nav-single-link:hover{
+    padding-left: 1rem;
+    color: var(--dark);
+  }
+}
