@@ -30,3 +30,40 @@
     --SectionPink: rgb(247, 241, 242);
   
   }
+
+  /* nav */
+.nav{ 
+  background:var(--light);
+  background: rgb(168, 12, 49);
+ }
+ .nav-header{
+   display: flex;
+   justify-content: space-between;
+   padding: 0.25rem 1rem;
+ }
+
+ /* child */
+ .nav-btn{
+   align-self: center;
+   font-size: 3rem;
+   color: var(--light);
+ }
+ .nav-links{
+   list-style-type: none;
+   background: var(--grey);
+ }
+ .nav-single-link{
+   display: block;
+   text-decoration: none;
+   font-size: 1.5rem;
+   padding: 0.5rem 1rem;
+   text-transform: capitalize;
+   color:var(--light);
+   transition: all 1s linear
+ }
+ .nav-single-link:hover{
+   background: var(--light);
+   padding-left: 1.5rem;
+   cursor: pointer;
+ }
+ 
