@@ -9,40 +9,6 @@
   flex-direction: column;
 }
 
-/* banner */
-.banner {
-  /* as a flex child */
-  flex: 1 0 auto;
-  /* as a parent*/
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  color: var(--light);
-  text-align: center;
-  padding-bottom: 4rem;
-  font-weight: 700;
-  position: relative;
-  left: 100px;
-  top: 400px;
-}
-
-.banner-title {
-  font-size: 4rem;
-  letter-spacing: 0.15rem;
-  margin-bottom: 0.5rem;
-  text-transform: capitalize;
-  text-align: center;
-}
-
-.banner-jobs {
-  letter-spacing: 0.15rem;
-  text-transform: capitalize;
-  font-size: 1.5rem;
-  color: var(--light)
-}
-/* end of banner */
-
-
 /* section title */
 .section-title {
   text-align: center;
