@@ -30,3 +30,24 @@
     --SectionPink: rgb(247, 241, 242);
   
   }
+
+  .dark-btn {
+    background: var(--dark);
+    color: var(--light);
+  }
+  
+  .dark-btn:hover {
+    background: var(--light);
+    color: var(--dark);
+  }
+  
+  .light-btn {
+    color: var(--dark);
+  }
+  
+  .light-btn:hover {
+    background: var(--dark);
+    color: var(--dark);
+  }
+  
+  
