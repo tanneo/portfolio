@@ -1,29 +1,13 @@
-# Tegans Portfolio
 
-Tegans portfolio project. This is a very basic project that requires Node. It will bundle files using a node module called [Gulp.js](http://gulpjs.com) and a couple of Gulp plugins.
 
-## Install
-
-Run the following command from the root directory of the project.
-
-`yarn`
-
-## Development
-
-Run the following commands when developing:
-
-`gulp watch`
-
-> To exit the gulp watch task press `control+c`
-
-roject documentation is to be compiled as a single markdown file named README.md
+Project documentation is to be compiled as a single markdown file named README.md
 
 This file should contain,
 
-- A link (URL) to your published portfolio website
+- A link (URL) to published portfolio website
 https://tanneo.github.io/portfolio/
 
-- A link to your GitHub repository
+- A link to GitHub repository
 https://github.com/tanneo/portfolio
 
 Description of your portfolio website, including,
@@ -67,6 +51,9 @@ Project plan & timeline
  * Short Essay
  * Powerpoint 
  * Submit
+
+ - Limitations
+ Need to focus on fundamentals and keep re-iterating over this prior to moving onto other frameworks. Had a friend I was working with on the other side of the world and time differences when I needed help were also an issue regarding Gulp and Node.JS so went back to using SAAS Live Compiler.  
 
 - Screenshots of Trello board(s)
 in /docs 
