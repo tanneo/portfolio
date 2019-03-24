@@ -1,0 +1,64 @@
+/* set global  */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* latin - import Open Sans from Google font*/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+  --light: #fff;
+  --dark: #181b24;
+  --grey: #899495;
+  --orange: #fc5130;
+  --SectionGrey: #f2f2f2;
+  --SectionWhite: #fff;
+  --SectionPink: rgb(247, 241, 242);
+}
+
+.dark-btn {
+  background: var(--dark);
+  color: var(--light);
+}
+
+.dark-btn:hover {
+  background: var(--light);
+  color: var(--dark);
+}
+
+.light-btn {
+  color: var(--dark);
+}
+
+.light-btn:hover {
+  background: var(--dark);
+  color: var(--dark);
+}
+
+/* section title */
+.section-title {
+  text-align: center;
+}
+
+.section-title-name {
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+/*# sourceMappingURL=base.css.map */

@@ -1,0 +1,25 @@
+/* footer */
+.footer {
+  background: var(--dark);
+  padding: 3rem;
+}
+
+.footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer-single-icon {
+  font-size: 2rem;
+  color: var(--light);
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.footer-single-icon:hover {
+  color: var(--grey);
+}
+/*# sourceMappingURL=footer.css.map */

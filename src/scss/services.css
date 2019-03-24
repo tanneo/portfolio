@@ -1,0 +1,74 @@
+/* services section */
+.services {
+  background: var(--SectionGrey);
+  /* use a variable so later we can change colour to whatever we want */
+  padding: 3rem 0;
+}
+
+.services-center {
+  max-width: 90vw;
+  margin: 2rem auto;
+}
+
+.services-single-service {
+  margin: 2rem auto;
+  text-align: center;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  padding: 2rem 0;
+}
+
+.services-single-service:hover {
+  background: var(--light);
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+}
+
+.services-single-service-icon {
+  font-size: 3rem;
+}
+
+.services-single-service-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.services-single-service-text {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 0.2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .services-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .services-single-service {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(50% - 0.5rem);
+            flex: 0 0 calc(50% - 0.5rem);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .services-single-service {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(33.33% - 0.25rem);
+            flex: 0 0 calc(33.33% - 0.25rem);
+  }
+}
+
+/* end of services section */
+/*# sourceMappingURL=services.css.map */
