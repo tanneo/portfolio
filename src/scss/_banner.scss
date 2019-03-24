@@ -11,8 +11,14 @@
   padding-bottom: 4rem;
   font-weight: 700;
   position: relative;
-  left: 100px;
-  top: 400px;
+  padding-top: 100px;
+}
+
+.banner-image {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+
 }
 
 .banner-title {
@@ -21,6 +27,10 @@
   margin-bottom: 0.5rem;
   text-transform: capitalize;
   text-align: center;
+
+  @media screen and (max-width: 768px) {
+    font-size: 2.5rem;
+  }
 }
 
 .banner-jobs {

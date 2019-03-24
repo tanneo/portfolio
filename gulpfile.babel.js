@@ -2,7 +2,6 @@ import gulp from 'gulp'
 import cssnano from 'gulp-cssnano'
 import sass from 'gulp-sass'
 
-
 /**
  * SCSS Bundling
  * Bundles SCSS code to CSS
@@ -18,7 +17,6 @@ function styles() {
       console.error(`${error.messageFormatted}`)
       this.emit('end')
     }))
-    .pipe(cssnano())
     .pipe(gulp.dest('./dist/css'))
 
 }
