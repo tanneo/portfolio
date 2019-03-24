@@ -1,13 +1,12 @@
-
 import gulp from 'gulp'
-import cssnano from 'gulp-cssnano' /* plugin in to ensure style sheet is as small as possible */
-import sass from 'gulp-sass' /* makes it possible to convert SASS to CSS */
+import cssnano from 'gulp-cssnano'
+import sass from 'gulp-sass'
 
 
 /**
  * SCSS Bundling
  * Bundles SCSS code to CSS
- * Exports the Bundled file into dist directory.
+ * Exports the Bundled file into diest directory.
  */
 
 function styles() {

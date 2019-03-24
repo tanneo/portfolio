@@ -1,26 +1,15 @@
 {
   "name": "portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "gulp-sass": "^4.0.2",
-    "node-sass": "^4.11.0"
-  },
+  "version": "0.0.1",
+  "description": "My portfolio project",
+  "author": "Tegan Oar",
+  "private": true,
+  "dependencies": {},
   "devDependencies": {
-    "gulp": "^4.0.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tanneo/portfolio.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tanneo/portfolio/issues"
-  },
-  "homepage": "https://github.com/tanneo/portfolio#readme"
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^4.0.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-sass": "^4.0.2"
+  }
 }
