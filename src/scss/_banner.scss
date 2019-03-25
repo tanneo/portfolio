@@ -15,10 +15,17 @@
 }
 
 .banner-image {
+<<<<<<< HEAD:src/scss/_banner.scss
   // max-width: 450px;
   width: 50%;
   height: auto;
   border-radius: 50% !important;
+=======
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+
+>>>>>>> 7d579d74a9316ab9be6398dbe4f224581ad3b5a0:src/scss/_banner.scss
 }
 
 .banner-title {

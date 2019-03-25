@@ -45,6 +45,7 @@ Project plan & timeline
  * Wireframes
  * Start developing project
 
+<<<<<<< HEAD
  - Day 3 & 4
  * Develop project
  * Review
@@ -62,3 +63,9 @@ in /docs
 Describe key events in the development of the internet from the 1980s to today (max. 150 words)
 Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
 Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
+=======
+> To exit the gulp watch task press `control+c`
+
+
+# What
+>>>>>>> 7d579d74a9316ab9be6398dbe4f224581ad3b5a0
