@@ -191,7 +191,7 @@ body {
 .banner-image {
   width: 50%;
   height: auto;
-  border-radius: 50% !important;
+  border-radius: 50%;
 }
 
 .banner-title {
