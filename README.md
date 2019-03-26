@@ -3,7 +3,7 @@
 - This file should contain,
 
 - A link (URL) to published portfolio website 
-https://tanneo.github.io/portfolio/
+https://tanneo.github.io/portfolio/src/index.html
 
 - A link to GitHub repository 
 https://github.com/tanneo/portfolio
